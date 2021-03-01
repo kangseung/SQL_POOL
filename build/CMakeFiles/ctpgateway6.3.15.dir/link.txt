@@ -1,0 +1,1 @@
+/bin/g++-9  -g  -Wl,-rpath,./:../lib -rdynamic CMakeFiles/ctpgateway6.3.15.dir/main.cpp.o  -o ctpgateway6.3.15   -L/home/jiangsheng/git/SQL_POOL/../../../lib/ctplib6.3.15  -Wl,-rpath,/home/jiangsheng/git/SQL_POOL/../../../lib/ctplib6.3.15: -lpthread -ldl -lpq -lJSBASELIB -lthosttraderapi_se -lthostmduserapi_se -lpq 

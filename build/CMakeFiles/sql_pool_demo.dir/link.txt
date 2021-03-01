@@ -1,0 +1,1 @@
+/bin/g++-9  -g  -Wl,-rpath,./:../lib -rdynamic CMakeFiles/sql_pool_demo.dir/main.cpp.o  -o sql_pool_demo   -L/home/jiangsheng/git/SQL_POOL/clickhouse  -L/home/jiangsheng/git/SQL_POOL/pgsql  -Wl,-rpath,/home/jiangsheng/git/SQL_POOL/clickhouse:/home/jiangsheng/git/SQL_POOL/pgsql: -lpthread -ldl -lclickhouse-cpp-lib -lpq 
